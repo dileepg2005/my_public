@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://kennametal.showpad.biz">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFpDCCA4wCCQDNEvSeEN4ENzANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCQkUxFjAUBgNVBAgMDUVhc3QgRmxhbmRlcnMxDjAMBgNVBAcMBUdoZW50MRAwDgYDVQQKDAdTaG93cGFkMRAwDgYDVQQLDAdQcm9kdWN0MRQwEgYDVQQDDAtzaG93cGFkLmJpejEiMCAGCSqGSIb3DQEJARYTc3VwcG9ydEBzaG93cGFkLmNvbTAeFw0yMTA5MTYxNTI2MjFaFw0zMTA5MTQxNTI2MjFaMIGTMQswCQYDVQQGEwJCRTEWMBQGA1UECAwNRWFzdCBGbGFuZGVyczEOMAwGA1UEBwwFR2hlbnQxEDAOBgNVBAoMB1Nob3dwYWQxEDAOBgNVBAsMB1Byb2R1Y3QxFDASBgNVBAMMC3Nob3dwYWQuYml6MSIwIAYJKoZIhvcNAQkBFhNzdXBwb3J0QHNob3dwYWQuY29tMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArGV/IYdleJmrPVjrhWJ03LyNKR+TgUJrFvgXLOfYZ+3fbz2p3mgfIsxx4q13m8rYEDcOfhcEA5KJBkUfzWVa0/ak7a3voOZftWuts7BFho0lQ3cm8nQXj2ARLImenBHba/lj24g7MU36bk9A+5BcY7YVxCQvg18HASnArh50aM1qho2+5kZchLbHjZ8MCH44TO5fmMa0OdIaA+qCKv6bUwGhIDSpppKUUrEQFRK3nvlKLqwX8TRkq0j3alRCl0OskXwukska9RUxOLIky93ZTzKaQ6jA9mW0iuTZZFMl8W16t+gHmvgiWUnK5jjVHKI8ACIw5L7lNCRtlggoKKWNknTwgeHYiRwxnNhFQN9THZs5U4Ts0udr/5tRHr4Ggp+uFf7Ibi+EdOesGtFcn4zP5It5d9ASCM6hkdAdTaxjWrW7WmbR3hf0VWBrMD6yxN4uIq9rxAdcuJ659KLIscdP3hjYINEOc54dtDLtZNEoQGvgXogVdhAC/HYevlKVQbGCq7ZL8vC+1bSETMDF9v5SSBluuFzEKj48/K1LT9UvLzxJ/KbBwU4r0xBosm5SgLMVEEH7iNuS73A0WKJstYR+5p7lI21/6v0c0v0DU6msX5c1sJj6sNtQFWrq+YV0ymWEI6/NoHcNLXGVrFd9v80nm3ip0Z7FM+P7cZEqmm8QAM0CAwEAATANBgkqhkiG9w0BAQsFAAOCAgEAYPriOWgj0PtUqJgXBoZUlfJcqWel0uIPlXklaZLmzBg8ftmDlKDwEroCSwcT158bCB0/HFbmQTkoLXOdpwyUZCHMYiayuGxMwm6nJiMFSHgCkYAfEvrEyrflkULTFgPTQqtgw67yv+4vsy5NdFPh3PEur0jxndEZJpLGqxWS0sfwd3J+U94uKkna/R0H4sV49maZE3TzGbHFeLeepf9dNEJYBCmEtjFf31UprVYRhuwoLBCYHmursCgeKPs68uufk4QhlGws6boD34lJjIcITh4CfK4i3rv3ILBpNxD6KUekCBedS9kdOAtzUkVRLyOcXVAWEvAtGicRuTIm/OUNeGNxbmtjfUKbWPihqY7hS18JX7nPJ7ydY/YPXUMxT0YYATvMP/TvRgpOooXGc/WPDF0dTiZXbmyZarByRZ3DnplaLfcWdN/tsf0WOkIYFtO5rK4FOWSYh5FJvn6Ar15duBTn4hCvRKA+qjjmSkQZcLF5KebP4yQxep2vRJs6jyhm1uWtAyx5vIRTlmiutvGHvUgE65nV2RTN8OR5N6NP96M18Rmsz+nunOx8tmXSTFd1JWSeHHwX334WUQzpl8RsYZnbkpqhAdwcRMKsU4e80IK/OC7+JvGGXo9aqVDKvw3frIj2dCP2UNxukJSRuuhxWdKgAk2rl10/cB0FGAoURrM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFpDCCA4wCCQDNEvSeEN4ENzANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCQkUxFjAUBgNVBAgMDUVhc3QgRmxhbmRlcnMxDjAMBgNVBAcMBUdoZW50MRAwDgYDVQQKDAdTaG93cGFkMRAwDgYDVQQLDAdQcm9kdWN0MRQwEgYDVQQDDAtzaG93cGFkLmJpejEiMCAGCSqGSIb3DQEJARYTc3VwcG9ydEBzaG93cGFkLmNvbTAeFw0yMTA5MTYxNTI2MjFaFw0zMTA5MTQxNTI2MjFaMIGTMQswCQYDVQQGEwJCRTEWMBQGA1UECAwNRWFzdCBGbGFuZGVyczEOMAwGA1UEBwwFR2hlbnQxEDAOBgNVBAoMB1Nob3dwYWQxEDAOBgNVBAsMB1Byb2R1Y3QxFDASBgNVBAMMC3Nob3dwYWQuYml6MSIwIAYJKoZIhvcNAQkBFhNzdXBwb3J0QHNob3dwYWQuY29tMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArGV/IYdleJmrPVjrhWJ03LyNKR+TgUJrFvgXLOfYZ+3fbz2p3mgfIsxx4q13m8rYEDcOfhcEA5KJBkUfzWVa0/ak7a3voOZftWuts7BFho0lQ3cm8nQXj2ARLImenBHba/lj24g7MU36bk9A+5BcY7YVxCQvg18HASnArh50aM1qho2+5kZchLbHjZ8MCH44TO5fmMa0OdIaA+qCKv6bUwGhIDSpppKUUrEQFRK3nvlKLqwX8TRkq0j3alRCl0OskXwukska9RUxOLIky93ZTzKaQ6jA9mW0iuTZZFMl8W16t+gHmvgiWUnK5jjVHKI8ACIw5L7lNCRtlggoKKWNknTwgeHYiRwxnNhFQN9THZs5U4Ts0udr/5tRHr4Ggp+uFf7Ibi+EdOesGtFcn4zP5It5d9ASCM6hkdAdTaxjWrW7WmbR3hf0VWBrMD6yxN4uIq9rxAdcuJ659KLIscdP3hjYINEOc54dtDLtZNEoQGvgXogVdhAC/HYevlKVQbGCq7ZL8vC+1bSETMDF9v5SSBluuFzEKj48/K1LT9UvLzxJ/KbBwU4r0xBosm5SgLMVEEH7iNuS73A0WKJstYR+5p7lI21/6v0c0v0DU6msX5c1sJj6sNtQFWrq+YV0ymWEI6/NoHcNLXGVrFd9v80nm3ip0Z7FM+P7cZEqmm8QAM0CAwEAATANBgkqhkiG9w0BAQsFAAOCAgEAYPriOWgj0PtUqJgXBoZUlfJcqWel0uIPlXklaZLmzBg8ftmDlKDwEroCSwcT158bCB0/HFbmQTkoLXOdpwyUZCHMYiayuGxMwm6nJiMFSHgCkYAfEvrEyrflkULTFgPTQqtgw67yv+4vsy5NdFPh3PEur0jxndEZJpLGqxWS0sfwd3J+U94uKkna/R0H4sV49maZE3TzGbHFeLeepf9dNEJYBCmEtjFf31UprVYRhuwoLBCYHmursCgeKPs68uufk4QhlGws6boD34lJjIcITh4CfK4i3rv3ILBpNxD6KUekCBedS9kdOAtzUkVRLyOcXVAWEvAtGicRuTIm/OUNeGNxbmtjfUKbWPihqY7hS18JX7nPJ7ydY/YPXUMxT0YYATvMP/TvRgpOooXGc/WPDF0dTiZXbmyZarByRZ3DnplaLfcWdN/tsf0WOkIYFtO5rK4FOWSYh5FJvn6Ar15duBTn4hCvRKA+qjjmSkQZcLF5KebP4yQxep2vRJs6jyhm1uWtAyx5vIRTlmiutvGHvUgE65nV2RTN8OR5N6NP96M18Rmsz+nunOx8tmXSTFd1JWSeHHwX334WUQzpl8RsYZnbkpqhAdwcRMKsU4e80IK/OC7+JvGGXo9aqVDKvw3frIj2dCP2UNxukJSRuuhxWdKgAk2rl10/cB0FGAoURrM=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://kennametal.showpad.biz/sso/logout?service-id=kennametal693fc1069cbda"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://kennametal.showpad.biz/sso/asc?service-id=kennametal693fc1069cbda" index="0"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://kennametal.showpad.biz/sso/asc?service-id=kennametal693fc1069cbda" index="1"/>
+  </md:SPSSODescriptor>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Showpad</md:GivenName>
+    <md:SurName>Support</md:SurName>
+    <md:EmailAddress>mailto:support@showpad.com</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
